@@ -1,0 +1,5 @@
+{
+  "extends": "tsconfig/node16.json",
+  "include": ["src", "__tests__"],
+  "exclude": ["dist", "build", "node_modules"]
+}

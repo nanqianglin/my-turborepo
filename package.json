@@ -2,9 +2,13 @@
   "private": true,
   "scripts": {
     "build": "turbo run build",
+    "build:math-helpers": "turbo run build --filter @nankio/math-helpers",
+    "clean": "turbo run clean",
+    "test": "turbo run test",
+    "test:watch": "turbo run test:watch",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md,json,js}\""
   },
   "devDependencies": {
     "@turbo/gen": "^1.9.7",
