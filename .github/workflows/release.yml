@@ -34,11 +34,11 @@ jobs:
         with:
           version: 7
 
-      - name: Setup npmrc
-        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
-
       - name: Install Dependencies
         run: pnpm i
+
+      - name: Setup npmrc
+        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
 
       # - name: Build Packages
       #   run: pnpm run build lint test
