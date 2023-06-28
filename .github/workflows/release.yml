@@ -9,6 +9,12 @@ concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
   release:
+    # IMPORTANT: prevent this action from running on forks
+    if: github.repository == 'USER_NAME/REPO_NAME'
+    permissions:
+      contents: write # to create release (changesets/action)
+      pull-requests: write # to create pull request (changesets/action)
+
     name: Release
     runs-on: ubuntu-latest
     steps:
@@ -39,10 +45,10 @@ jobs:
         uses: changesets/action@v1
         with:
           # This expects you to have a script called release which does a build for your packages and calls changeset publish
-          version: pnpm version-packages
+          # version: pnpm version-packages
           publish: pnpm release
-          commit: "[ci] release"
-          title: "[ci] release"
+          # commit: "[ci] release"
+          # title: "[ci] release"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
