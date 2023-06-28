@@ -21,6 +21,10 @@
     "prettier": "^2.5.1",
     "turbo": "latest"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nanqianglin/my-turborepo.git"
+  },
   "packageManager": "pnpm@7.15.0",
   "name": "my-turborepo"
 }
