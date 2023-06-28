@@ -1,5 +1,13 @@
 # @nankio/math-helpers
 
+## 1.1.3
+
+### Patch Changes
+
+- f60fa5d: Patch 4
+- 5a236d8: Patch 3.4
+- 21a7d65: Patch 3.4.4
+
 ## 1.1.2
 
 ### Patch Changes
