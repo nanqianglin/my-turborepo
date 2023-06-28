@@ -1,5 +1,11 @@
 # @nankio/math-helpers
 
+## 1.1.2
+
+### Patch Changes
+
+- 663f9e6: Patch 3
+
 ## 1.1.1
 
 ### Patch Changes
