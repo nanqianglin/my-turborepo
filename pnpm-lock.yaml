@@ -29,9 +29,6 @@ importers:
 
   apps/docs:
     dependencies:
-      '@nankio/math-helpers':
-        specifier: workspace:*
-        version: link:../../packages/math-helpers
       next:
         specifier: ^13.4.1
         version: 13.4.1(react-dom@18.2.0)(react@18.2.0)
