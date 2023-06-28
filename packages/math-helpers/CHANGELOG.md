@@ -1,5 +1,16 @@
 # @nankio/math-helpers
 
+## 1.2.0
+
+### Minor Changes
+
+- d413906: Minor 1
+
+### Patch Changes
+
+- d3cd11b: Patch 4.0
+- 6ec84fa: patch 4.1
+
 ## 1.1.3
 
 ### Patch Changes
