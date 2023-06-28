@@ -8,9 +8,13 @@
     "test:watch": "turbo run test:watch",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md,json,js}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md,json,js}\"",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turbo run build lint test --filter=@nankio/math-helpers && changeset publish"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.26.2",
     "@turbo/gen": "^1.9.7",
     "eslint": "^7.32.0",
     "eslint-config-custom": "workspace:*",
