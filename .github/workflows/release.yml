@@ -15,11 +15,11 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v3
 
-      - name: Setup Node.js 18.x
+      - name: Setup Node.js 16.x
         uses: actions/setup-node@v3
         with:
-          node-version: 18.x
-          registry-url: "https://npm.pkg.github.com"
+          node-version: 16.x
+          registry-url: "https://registry.npmjs.org"
           # Defaults to the user or organization that owns the workflow file
           scope: "@nankio"
 
@@ -33,6 +33,10 @@ jobs:
 
       - name: Build Packages
         run: pnpm run build lint test
+
+      - name: Console the value
+        run: |
+          echo "${{ secrets.NPM_TOKEN }}"
 
       - name: Create Release Pull Request or Publish to npm
         id: changesets
