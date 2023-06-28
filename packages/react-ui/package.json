@@ -4,6 +4,9 @@
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
   "scripts": {
     "build": "tsup",
     "clean": "rimraf .turbo node_modules dist",
@@ -23,5 +26,8 @@
   },
   "dependencies": {
     "@nankio/math-helpers": "workspace:*"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
