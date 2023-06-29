@@ -1,5 +1,12 @@
 # @nankio/react-ui
 
+## 1.0.3
+
+### Patch Changes
+
+- Updated dependencies [0c87cbe]
+  - @nankio/math-helpers@1.2.2
+
 ## 1.0.2
 
 ### Patch Changes

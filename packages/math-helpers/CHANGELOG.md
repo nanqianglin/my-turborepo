@@ -1,5 +1,11 @@
 # @nankio/math-helpers
 
+## 1.2.2
+
+### Patch Changes
+
+- 0c87cbe: Add the test2 function
+
 ## 1.2.1
 
 ### Patch Changes
