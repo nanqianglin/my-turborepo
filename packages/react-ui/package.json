@@ -7,6 +7,10 @@
   "files": [
     "dist/**"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nanqianglin/my-turborepo.git"
+  },
   "scripts": {
     "build": "tsup",
     "clean": "rimraf .turbo node_modules dist",
