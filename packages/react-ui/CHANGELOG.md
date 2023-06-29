@@ -1,5 +1,13 @@
 # @nankio/react-ui
 
+## 1.0.4
+
+### Patch Changes
+
+- 7e0fc75: Add the repository url for npm packages
+- Updated dependencies [7e0fc75]
+  - @nankio/math-helpers@1.2.3
+
 ## 1.0.3
 
 ### Patch Changes

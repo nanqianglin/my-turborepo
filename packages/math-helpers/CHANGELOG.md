@@ -1,5 +1,11 @@
 # @nankio/math-helpers
 
+## 1.2.3
+
+### Patch Changes
+
+- 7e0fc75: Add the repository url for npm packages
+
 ## 1.2.2
 
 ### Patch Changes
