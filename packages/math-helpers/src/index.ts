@@ -18,3 +18,8 @@ export const test = (a: number, b: number) => {
   console.log(a, b);
   return a + b;
 };
+
+export const test2 = (a: number, b: number) => {
+  console.log(a, b);
+  return a + b;
+};
