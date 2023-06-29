@@ -1,5 +1,11 @@
 # @nankio/math-helpers
 
+## 1.2.1
+
+### Patch Changes
+
+- f4012fd: Add the test function
+
 ## 1.2.0
 
 ### Minor Changes
