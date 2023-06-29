@@ -13,3 +13,8 @@ export const mul = (a: number, b: number) => {
 export const div = (a: number, b: number) => {
   return a / b;
 };
+
+export const test = (a: number, b: number) => {
+  console.log(a, b);
+  return a + b;
+};
