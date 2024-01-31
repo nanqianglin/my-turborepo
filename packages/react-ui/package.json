@@ -1,16 +1,13 @@
 {
   "name": "@nankio/react-ui",
-  "version": "1.0.4",
+  "version": "0.0.0",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist/**"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/nanqianglin/my-turborepo.git"
-  },
+  "repository": "https://github.com/nanqianglin/my-turborepo",
   "scripts": {
     "build": "tsup",
     "clean": "rimraf .turbo node_modules dist",
